@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project / Tsigereda</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../javascript/script.js"></script>
+</head>
+
+<body>
+    <div class="cont">
+        <header>
+            <div class="container">
+                <h2>Tsigereda Nebai</h2>
+            </div>
+        </header>
+
+        <nav>
+            <div id="menu-box"><i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i></div>
+            <div class="container">
+                <ul class="showing">
+                    <li><a href="../index.html"><strong>Home</strong></a></li>
+                    <li><a href="../about/index.html"><strong>About</strong></a></li>
+                    <li><a href="index.html" class="clicked"><strong>Project</strong></a></li>
+                    <li><a href="../contact/index.html"><strong>Contact</strong></a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <h1>My Projects</h1>
+            </div>
+            <hr>
+            <p><a href="mypics" class="pics">MY Pictures</a></p>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>©copy right ¦ tsigereda ¦ <a href="https://www.facebook.com/nebai.ts"><i class="fa fa-facebook-square icon"></i></a> ¦ <a href="https://twitter.com/agida14"><i class="fa fa-twitter icon"></i></a></p>
+        </div>
+    </footer>
+    <script>
+        $('#menu-box').on('click', function() {
+            $('nav ul').toggleClass('showing');
+        })
+    </script>
+</body>
+
+</html>
