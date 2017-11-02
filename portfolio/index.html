@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Main Page / Tsigereda</title>
@@ -8,7 +8,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../javascript/script.js"></script>
 </head>
 
 <body>
@@ -18,7 +17,6 @@
                 <h2>Tsigereda Nebai</h2>
             </div>
         </header>
-        <span></span>
         <nav>
             <div id="menu-box"><i class="fa fa-bars fa-lg" aria-hidden="true" title="Toggle navigation"></i></div>
             <div class="container">
@@ -31,9 +29,54 @@
             </div>
         </nav>
         <main>
+                <section class="firstaside">
+                    <div class="div1">
+                        <a href="https://www.facebook.com/nebai.ts" class="facetwitt"><img src="https://image.flaticon.com/icons/svg/124/124010.svg" width="50px"></a>
+                    </div>
+                    <hr>
+                    <div class="div2">
+                        <a href="https://twitter.com/agida14" class="facetwitt"><img src="https://image.flaticon.com/icons/svg/145/145812.svg" width="50px"></a>
+                    </div>
+                    <hr>
+                    <div class="div3">
+                        <a href="https://www.linkedin.com/in/tsigereda-nebai-027591131/" class="facetwitt"><img src="https://image.flaticon.com/icons/svg/124/124011.svg" width="50px"></a>
+                    </div>
+                    <hr>
+                    <div class="div3">
+                        <a href="https://www.instagram.com/agida93lve/" class="facetwitt"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" width="50px"></a>
+                    </div>
+                    <hr>
+                    <div class="div3">
+                        <a href="https://plus.google.com/u/0/103725301072350335537" class="facetwitt"><img src="https://image.flaticon.com/icons/svg/145/145804.svg" width="50px"></a>
+                    </div>
+                    <hr>
+                </section>
+            <section class="secondaside">
+                    <h5>The Websites I often use.</h5>
+                    <div class="websites">
+                        <a href="https://www.codecademy.com/courses">Codecademy</a>
+                    </div>
+                    <hr>
+                    <div class="websites">
+                        <a href="https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+1T2017/course">edX</a>
+                    </div>
+                    <hr>
+                    <div class="websites">
+                        <a href="https://www.coursera.org/learn/machine-learning">Coursera</a>
+                    </div>
+                    <hr>
+                    <div class="websites">
+                        <a href="https://developer.mozilla.org">MDN</a>    
+                    </div>
+                    <hr>
+                    <div class="websites">
+                        <a href="https://www.quora.com">Quora</a>
+                    </div>
+                    <hr>
+                </section>
+                <section class="main">
             <div class="container">
                 <h1>Home</h1>
-                <hr>
                 <div class="col">
                     <a href="about/index.html">
                         <h3><i class="fa fa-female" aria-hidden="true"></i><br>About</h3>
@@ -53,20 +96,25 @@
                     </a>
                 </div>
             </div>
-        </main>
-        <hr style="color: brown" class="down">
-    </div>
+</section>
+</main>
+</div>
 
-    <footer>
-        <div class="container">
-            <p>©copy right ¦ tsigereda ¦ <a href="https://www.facebook.com/nebai.ts"><i class="fa fa-facebook-square icon"></i></a> ¦ <a href="https://twitter.com/agida14"><i class="fa fa-twitter icon"></i></a></p>
-        </div>
-    </footer>
+<footer>
+    <div class="container">
+        <p>©copy right ¦ tsigereda</p>
+    </div>
+</footer>
     <script>
         $('#menu-box').on('click', function() {
             $('nav ul').toggleClass('showing');
         })
+        $(document).ready(function() {
+            $('.footer').css('margin-top', $(document).height() - $('.cont').height());
+        })
+
     </script>
 
 </body>
+
 </html>

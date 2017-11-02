@@ -29,7 +29,6 @@ header {
 h4 {
     font-family: 'PT Serif', serif;
     font-size: 24px;
-    border: 1px outset white;
     text-align: center;
 }
 
@@ -45,7 +44,7 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: darkgray;
 }
 
 a:hover {
@@ -68,6 +67,8 @@ footer {
     margin-bottom: -28px;
     padding-bottom: 1px;
     color: white;
+     clear: both;
+    box-sizing: border-box;
 }
 
 /*--------FOOTER---------*/
@@ -77,7 +78,6 @@ footer a:visited {
     color: blue;
     text-decoration: none;
 }
-.footer {}
 
 /*------------NAV--------------*/
 
@@ -151,11 +151,16 @@ ol li {
     display: block;
 }
 
-
-.clear {
-    margin-left: 380px;
+.h4 {
+    text-align: left;
 }
-
+.clear {
+    margin-left: 450px;
+    text-align: left;
+}
+.h5 {
+    margin-left: 480px;
+}
 .col {
     border: 4px inset #000;
     padding: 20px;
@@ -187,7 +192,34 @@ ol li {
     margin-bottom: 20px;
     text-align: center;
 }
-
+article {
+    display: block;
+}
+ .firstaside {
+    float: left;
+}
+.facetwitt {
+    margin:0px;
+    border: solid 2px inherit;
+    padding:40px;
+    box-sizing: border-box;
+}
+.facetwitt img:hover {
+    box-shadow: 0 15px 10px gray;
+}
+.main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.secondaside {
+    float: right;
+}
+.websites {
+    margin: 0px;
+    border: solid 2px inherit;
+    padding: 20px;
+    box-sizing: border-box;
+}
 /*-------------defines the hr-------------------*/
 
 hr {
